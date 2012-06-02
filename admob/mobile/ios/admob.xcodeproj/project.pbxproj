@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2067EEFF157995870035CAEF /* GADAdMobExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 2067EEFC157995870035CAEF /* GADAdMobExtras.h */; };
+		2067EF00157995870035CAEF /* GADAdNetworkExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 2067EEFD157995870035CAEF /* GADAdNetworkExtras.h */; };
+		2067EF01157995870035CAEF /* GADAdSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 2067EEFE157995870035CAEF /* GADAdSize.h */; };
+		2067EF09157995930035CAEF /* GADCustomEventBanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 2067EF03157995930035CAEF /* GADCustomEventBanner.h */; };
+		2067EF0A157995930035CAEF /* GADCustomEventBannerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2067EF04157995930035CAEF /* GADCustomEventBannerDelegate.h */; };
+		2067EF0B157995930035CAEF /* GADCustomEventExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 2067EF05157995930035CAEF /* GADCustomEventExtras.h */; };
+		2067EF0C157995930035CAEF /* GADCustomEventInterstitial.h in Headers */ = {isa = PBXBuildFile; fileRef = 2067EF06157995930035CAEF /* GADCustomEventInterstitial.h */; };
+		2067EF0D157995930035CAEF /* GADCustomEventInterstitialDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2067EF07157995930035CAEF /* GADCustomEventInterstitialDelegate.h */; };
+		2067EF0E157995930035CAEF /* GADCustomEventRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2067EF08157995930035CAEF /* GADCustomEventRequest.h */; };
 		249BE66F11B47B2700AF41CF /* TiAdmobViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 249BE66D11B47B2700AF41CF /* TiAdmobViewProxy.h */; };
 		249BE67011B47B2700AF41CF /* TiAdmobViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 249BE66E11B47B2700AF41CF /* TiAdmobViewProxy.m */; };
 		249BE67311B47B3800AF41CF /* TiAdmobView.h in Headers */ = {isa = PBXBuildFile; fileRef = 249BE67111B47B3800AF41CF /* TiAdmobView.h */; };
@@ -28,6 +37,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2067EEFC157995870035CAEF /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
+		2067EEFD157995870035CAEF /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
+		2067EEFE157995870035CAEF /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSize.h; sourceTree = "<group>"; };
+		2067EF03157995930035CAEF /* GADCustomEventBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventBanner.h; sourceTree = "<group>"; };
+		2067EF04157995930035CAEF /* GADCustomEventBannerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventBannerDelegate.h; sourceTree = "<group>"; };
+		2067EF05157995930035CAEF /* GADCustomEventExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventExtras.h; sourceTree = "<group>"; };
+		2067EF06157995930035CAEF /* GADCustomEventInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventInterstitial.h; sourceTree = "<group>"; };
+		2067EF07157995930035CAEF /* GADCustomEventInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventInterstitialDelegate.h; sourceTree = "<group>"; };
+		2067EF08157995930035CAEF /* GADCustomEventRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventRequest.h; sourceTree = "<group>"; };
 		249BE66D11B47B2700AF41CF /* TiAdmobViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiAdmobViewProxy.h; path = Classes/TiAdmobViewProxy.h; sourceTree = "<group>"; };
 		249BE66E11B47B2700AF41CF /* TiAdmobViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiAdmobViewProxy.m; path = Classes/TiAdmobViewProxy.m; sourceTree = "<group>"; };
 		249BE67111B47B3800AF41CF /* TiAdmobView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiAdmobView.h; path = Classes/TiAdmobView.h; sourceTree = "<group>"; };
@@ -44,7 +62,7 @@
 		A8668C7813FB072700834503 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* TiAdmob_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiAdmob_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D2AAC07E0554694100DB518D /* libadmob.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libadmob.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AAC07E0554694100DB518D /* libTiAdmob.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTiAdmob.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD5D7CE12527E11009CF986 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		DAD5D7D112527E1A009CF986 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		DAD5D7D412527E2F009CF986 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
@@ -69,7 +87,7 @@
 		034768DFFF38A50411DB9C8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2AAC07E0554694100DB518D /* libadmob.a */,
+				D2AAC07E0554694100DB518D /* libTiAdmob.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,9 +129,26 @@
 			name = Classes;
 			sourceTree = "<group>";
 		};
+		2067EF02157995930035CAEF /* Mediation */ = {
+			isa = PBXGroup;
+			children = (
+				2067EF03157995930035CAEF /* GADCustomEventBanner.h */,
+				2067EF04157995930035CAEF /* GADCustomEventBannerDelegate.h */,
+				2067EF05157995930035CAEF /* GADCustomEventExtras.h */,
+				2067EF06157995930035CAEF /* GADCustomEventInterstitial.h */,
+				2067EF07157995930035CAEF /* GADCustomEventInterstitialDelegate.h */,
+				2067EF08157995930035CAEF /* GADCustomEventRequest.h */,
+			);
+			path = Mediation;
+			sourceTree = "<group>";
+		};
 		249BE66811B47AC900AF41CF /* headers */ = {
 			isa = PBXGroup;
 			children = (
+				2067EF02157995930035CAEF /* Mediation */,
+				2067EEFC157995870035CAEF /* GADAdMobExtras.h */,
+				2067EEFD157995870035CAEF /* GADAdNetworkExtras.h */,
+				2067EEFE157995870035CAEF /* GADAdSize.h */,
 				A8668C6C13FB071500834503 /* GADBannerView.h */,
 				A8668C6D13FB071500834503 /* GADBannerViewDelegate.h */,
 				A8668C6E13FB071500834503 /* GADInterstitial.h */,
@@ -150,6 +185,15 @@
 				A8668C7513FB071500834503 /* GADInterstitialDelegate.h in Headers */,
 				A8668C7613FB071500834503 /* GADRequest.h in Headers */,
 				A8668C7713FB071500834503 /* GADRequestError.h in Headers */,
+				2067EEFF157995870035CAEF /* GADAdMobExtras.h in Headers */,
+				2067EF00157995870035CAEF /* GADAdNetworkExtras.h in Headers */,
+				2067EF01157995870035CAEF /* GADAdSize.h in Headers */,
+				2067EF09157995930035CAEF /* GADCustomEventBanner.h in Headers */,
+				2067EF0A157995930035CAEF /* GADCustomEventBannerDelegate.h in Headers */,
+				2067EF0B157995930035CAEF /* GADCustomEventExtras.h in Headers */,
+				2067EF0C157995930035CAEF /* GADCustomEventInterstitial.h in Headers */,
+				2067EF0D157995930035CAEF /* GADCustomEventInterstitialDelegate.h in Headers */,
+				2067EF0E157995930035CAEF /* GADCustomEventRequest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,7 +214,7 @@
 			);
 			name = admob;
 			productName = admob;
-			productReference = D2AAC07E0554694100DB518D /* libadmob.a */;
+			productReference = D2AAC07E0554694100DB518D /* libTiAdmob.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -224,7 +268,11 @@
 				"ARCHS[sdk=iphonesimulator*]" = i386;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/TiAdmob.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiAdmob_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -236,27 +284,23 @@
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TiAdmob_Prefix.pch";
 				INSTALL_PATH = /usr/local/lib;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 					"\"$(SRCROOT)/lib\"",
 				);
-				PRODUCT_NAME = "TiAdmob";
 				OTHER_CFLAGS = (
 					"-DDEBUG",
 					"-DTI_POST_1_2",
 				);
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = TiAdmob;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
-				DSTROOT = "/tmp/TiAdmob.dst";
 			};
 			name = Debug;
 		};
@@ -264,6 +308,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = (
 					armv6,
 					armv7,
@@ -273,7 +318,11 @@
 					armv7,
 				);
 				"ARCHS[sdk=iphonesimulator*]" = i386;
+				DSTROOT = /tmp/TiAdmob.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiAdmob_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -285,26 +334,19 @@
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TiAdmob_Prefix.pch";
 				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 					"\"$(SRCROOT)/lib\"",
 				);
-				PRODUCT_NAME = "TiAdmob";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PRODUCT_NAME = TiAdmob;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				DSTROOT = "/tmp/TiAdmob.dst";
 			};
 			name = Release;
 		};
@@ -323,7 +365,11 @@
 				"ARCHS[sdk=iphonesimulator*]" = i386;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/TiAdmob.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiAdmob_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -335,22 +381,18 @@
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TiAdmob_Prefix.pch";
 				INSTALL_PATH = /usr/local/lib;
-				PRODUCT_NAME = "TiAdmob";
 				OTHER_CFLAGS = (
 					"-DDEBUG",
 					"-DTI_POST_1_2",
 				);
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = TiAdmob;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
-				DSTROOT = "/tmp/TiAdmob.dst";
 			};
 			name = Debug;
 		};
@@ -358,6 +400,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = (
 					armv6,
 					armv7,
@@ -367,7 +410,11 @@
 					armv7,
 				);
 				"ARCHS[sdk=iphonesimulator*]" = i386;
+				DSTROOT = /tmp/TiAdmob.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiAdmob_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -379,44 +426,14 @@
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TiAdmob_Prefix.pch";
 				INSTALL_PATH = /usr/local/lib;
-				PRODUCT_NAME = "TiAdmob";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PRODUCT_NAME = TiAdmob;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				DSTROOT = "/tmp/TiAdmob.dst";
-			};
-			name = Release;
-		};
-		24416B8211C4CA220047AFDD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				PRODUCT_NAME = "Build & test";
-			};
-			name = Debug;
-		};
-		24416B8311C4CA220047AFDD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				PRODUCT_NAME = "Build & test";
-				ZERO_LINK = NO;
 			};
 			name = Release;
 		};
