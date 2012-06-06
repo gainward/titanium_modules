@@ -2,10 +2,10 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 1.3
+version: 1.4
 description: AdMob module for ad delivery via AdMob
 author: Jeff Haynie & Stephen Tramer
-license: Appcelerator Commercial License 
+license: Appcelerator Commercial License
 copyright: Copyright (c) 2010-2011 by Appcelerator, Inc.
 
 
